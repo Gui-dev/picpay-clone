@@ -32,10 +32,15 @@ export const Routes: React.FC = () => {
 
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
-        tabBarIcon: ({ color, size }) => {
+      screenOptions={({ route, navigation }) => ({
+        tabBarIcon: ({ color, size, focused }) => {
           if (route.name === 'Pay') {
-            return <PayButton />
+            return (
+              <PayButton
+                navigate={ () => navigation.navigate('Pay') }
+                focused={ focused }
+              />
+            )
           }
           const { lib: Icon, name } = icons[route.name]
           return <Icon name={ name } size={ size } color={ color }/>
