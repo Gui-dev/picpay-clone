@@ -7,7 +7,7 @@ import { Routes } from './routes'
 export const Main: React.FC = () => {
   return (
     <>
-      <StatusBar style="light"/>
+      <StatusBar style="light" backgroundColor="#222"/>
       <NavigationContainer>
         <Routes />
       </NavigationContainer>
