@@ -1,6 +1,7 @@
 import React from 'react'
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 
+import { Suggestions } from '../../components/Suggestions'
 import { Container, Scroll, Header, BalanceContainer, BalanceTitle, Balance } from './style'
 
 export const Home: React.FC = () => {
@@ -18,7 +19,7 @@ export const Home: React.FC = () => {
         <AntDesign name="gift" size={30} color="#10C86E"/>
       </Header>
 
-
+      <Suggestions />
 
       </Scroll>
     </Container>
