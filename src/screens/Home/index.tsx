@@ -2,6 +2,7 @@ import React from 'react'
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 
 import { Suggestions } from '../../components/Suggestions'
+import { Activities } from '../../components/Activities'
 import { Container, Scroll, Header, BalanceContainer, BalanceTitle, Balance } from './style'
 
 export const Home: React.FC = () => {
@@ -20,6 +21,7 @@ export const Home: React.FC = () => {
       </Header>
 
       <Suggestions />
+      <Activities />
 
       </Scroll>
     </Container>
