@@ -4,6 +4,7 @@ import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 import { Suggestions } from '../../components/Suggestions'
 import { Activities } from '../../components/Activities'
 import { Tips } from '../../components/Tips'
+import { Banner } from '../../components/Banner'
 import { Container, Scroll, Header, BalanceContainer, BalanceTitle, Balance } from './style'
 
 export const Home: React.FC = () => {
@@ -24,6 +25,7 @@ export const Home: React.FC = () => {
       <Suggestions />
       <Activities />
       <Tips />
+      <Banner />
 
       </Scroll>
     </Container>
