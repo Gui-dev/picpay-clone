@@ -12,13 +12,13 @@ import { Container, Options, Img, Label } from './style'
 export const Suggestions: React.FC = () => {
 
   const items = [
-    { key: String(Math.random()), img: img1, label: 'Doações' },
-    { key: String(Math.random()), img: img2, label: 'Doações' },
-    { key: String(Math.random()), img: img3, label: 'Doações' },
-    { key: String(Math.random()), img: img4, label: 'Doações' },
+    { key: String(Math.random()), img: img1, label: 'Recarga' },
+    { key: String(Math.random()), img: img2, label: 'Uber' },
+    { key: String(Math.random()), img: img3, label: 'Ônibus' },
+    { key: String(Math.random()), img: img4, label: 'TV' },
     { key: String(Math.random()), img: img5, label: 'Doações' },
-    { key: String(Math.random()), img: img6, label: 'Doações' },
-    { key: String(Math.random()), img: img7, label: 'Doações' },
+    { key: String(Math.random()), img: img6, label: 'Cod. barras' },
+    { key: String(Math.random()), img: img7, label: 'FAQ' },
   ]
 
   return (
