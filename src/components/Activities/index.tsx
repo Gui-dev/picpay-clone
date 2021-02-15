@@ -44,6 +44,7 @@ export const Activities: React.FC = () => {
             </Options>
           </Actions>
         </CardFooter>
+
       </Card>
     </Container>
   )
